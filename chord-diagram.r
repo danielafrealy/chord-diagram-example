@@ -1,4 +1,3 @@
-```{r}
 # Load necessary libraries
 library(googlesheets4)
 library(circlize)
@@ -19,5 +18,3 @@ class(bottle_matrix) <- "numeric"
 
 # generate the chord diagram
 chordDiagram(bottle_matrix)
-
-```
